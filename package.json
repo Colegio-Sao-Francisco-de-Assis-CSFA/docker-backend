@@ -1,7 +1,7 @@
 {
   "name": "csfa-backend",
   "version": "1.0.0",
-  "description": "Backend do Colégio São Francisco de Assis",
+  "description": "Ambiente de desenvolvimento backend do site do Colégio São Francisco de Assis, preparado para execução com Docker.",
   "main": "src/index.ts",
   "scripts": {
     "dev": "nodemon src/index.ts",
@@ -17,6 +17,8 @@
     "express": "*",
     "json2csv": "*",
     "jsonwebtoken": "*",
+    "swagger-jsdoc": "*",
+    "swagger-ui-express": "*",
     "zod": "*"
   },
   "devDependencies": {
@@ -28,6 +30,8 @@
     "nodemon": "*",
     "prisma": "*",
     "ts-node": "*",
-    "typescript": "*"
+    "typescript": "*",
+    "@types/swagger-jsdoc": "*",
+    "@types/swagger-ui-express": "*"
   }
 }
